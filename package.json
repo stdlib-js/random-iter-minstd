@@ -1,0 +1,49 @@
+{
+  "name": "@stdlib/random-iter-minstd",
+  "version": "0.0.0",
+  "description": "Create an iterator for a linear congruential pseudorandom number generator (LCG) based on Park and Miller.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/random-iter-minstd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "mathematics",
+    "math",
+    "statistics",
+    "stats",
+    "prng",
+    "rng",
+    "pseudorandom",
+    "random",
+    "rand",
+    "discrete",
+    "integer",
+    "randint",
+    "randu",
+    "uniform",
+    "generator",
+    "lcg",
+    "minstd",
+    "lehmer",
+    "park",
+    "miller",
+    "park-miller",
+    "seed",
+    "seedable",
+    "iterator",
+    "iterable"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
