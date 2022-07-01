@@ -24,32 +24,30 @@ limitations under the License.
 
 > Create an iterator for a linear congruential pseudorandom number generator ([LCG][lcg]) based on Park and Miller.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/random-iter-minstd
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-iterator = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-minstd@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-minstd@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.iterator;
-})();
-</script>
+var iterator = require( '@stdlib/random-iter-minstd' );
 ```
 
 #### iterator( \[options] )
@@ -186,13 +184,8 @@ The returned iterator protocol-compliant object has the following properties:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-minstd@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var iterator = require( '@stdlib/random-iter-minstd' );
 
 var it;
 var r;
@@ -211,11 +204,6 @@ while ( true ) {
     }
     console.log( r.value );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -318,6 +306,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/random-iter-minstd/tree/deno
 [umd-url]: https://github.com/stdlib-js/random-iter-minstd/tree/umd
 [esm-url]: https://github.com/stdlib-js/random-iter-minstd/tree/esm
+[branches-url]: https://github.com/stdlib-js/random-iter-minstd/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/random-iter-minstd/main/LICENSE
 
@@ -325,19 +314,19 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [@park:1988]: http://dx.doi.org/10.1145/63039.63042
 
-[@stdlib/array/int32]: https://github.com/stdlib-js/array-int32/tree/umd
+[@stdlib/array/int32]: https://github.com/stdlib-js/array-int32
 
 <!-- <related-links> -->
 
-[@stdlib/random/base/minstd]: https://github.com/stdlib-js/random-base-minstd/tree/umd
+[@stdlib/random/base/minstd]: https://github.com/stdlib-js/random-base-minstd
 
-[@stdlib/random/iter/minstd-shuffle]: https://github.com/stdlib-js/random-iter-minstd-shuffle/tree/umd
+[@stdlib/random/iter/minstd-shuffle]: https://github.com/stdlib-js/random-iter-minstd-shuffle
 
-[@stdlib/random/iter/mt19937]: https://github.com/stdlib-js/random-iter-mt19937/tree/umd
+[@stdlib/random/iter/mt19937]: https://github.com/stdlib-js/random-iter-mt19937
 
-[@stdlib/random/iter/randi]: https://github.com/stdlib-js/random-iter-randi/tree/umd
+[@stdlib/random/iter/randi]: https://github.com/stdlib-js/random-iter-randi
 
-[@stdlib/random/iter/randu]: https://github.com/stdlib-js/random-iter-randu/tree/umd
+[@stdlib/random/iter/randu]: https://github.com/stdlib-js/random-iter-randu
 
 <!-- </related-links> -->
 
