@@ -24,30 +24,14 @@ limitations under the License.
 
 > Create an iterator for a linear congruential pseudorandom number generator ([LCG][lcg]) based on Park and Miller.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/random-iter-minstd
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var iterator = require( '@stdlib/random-iter-minstd' );
+import iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-minstd@deno/mod.js';
 ```
 
 #### iterator( \[options] )
@@ -185,7 +169,7 @@ The returned iterator protocol-compliant object has the following properties:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var iterator = require( '@stdlib/random-iter-minstd' );
+import iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-minstd@deno/mod.js';
 
 var it;
 var r;
@@ -250,7 +234,7 @@ while ( true ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -314,19 +298,19 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [@park:1988]: http://dx.doi.org/10.1145/63039.63042
 
-[@stdlib/array/int32]: https://github.com/stdlib-js/array-int32
+[@stdlib/array/int32]: https://github.com/stdlib-js/array-int32/tree/deno
 
 <!-- <related-links> -->
 
-[@stdlib/random/base/minstd]: https://github.com/stdlib-js/random-base-minstd
+[@stdlib/random/base/minstd]: https://github.com/stdlib-js/random-base-minstd/tree/deno
 
-[@stdlib/random/iter/minstd-shuffle]: https://github.com/stdlib-js/random-iter-minstd-shuffle
+[@stdlib/random/iter/minstd-shuffle]: https://github.com/stdlib-js/random-iter-minstd-shuffle/tree/deno
 
-[@stdlib/random/iter/mt19937]: https://github.com/stdlib-js/random-iter-mt19937
+[@stdlib/random/iter/mt19937]: https://github.com/stdlib-js/random-iter-mt19937/tree/deno
 
-[@stdlib/random/iter/randi]: https://github.com/stdlib-js/random-iter-randi
+[@stdlib/random/iter/randi]: https://github.com/stdlib-js/random-iter-randi/tree/deno
 
-[@stdlib/random/iter/randu]: https://github.com/stdlib-js/random-iter-randu
+[@stdlib/random/iter/randu]: https://github.com/stdlib-js/random-iter-randu/tree/deno
 
 <!-- </related-links> -->
 
